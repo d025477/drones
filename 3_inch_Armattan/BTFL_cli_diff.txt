@@ -1,0 +1,57 @@
+diff
+
+# version
+# Betaflight / CLRACINGF4 (CLR4) 3.5.6 Feb 16 2019 / 12:46:06 (c28ca22f9) MSP API: 1.40
+
+board_name CLRACINGF4
+manufacturer_id 
+
+# name
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -RX_SERIAL
+
+# beeper
+
+# beacon
+
+# map
+
+# serial
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+
+# profile
+profile 0
+
+
+# rateprofile
+rateprofile 0
+
+
+# 

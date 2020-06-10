@@ -1,0 +1,139 @@
+diff
+
+# version
+# INAV/MATEKF411SE 2.4.0 Feb 11 2020 / 23:07:15 (bcd4caef9)
+# GCC-8.2.1 20181213 (release) [gcc-8-branch revision 267074]
+
+# start the command batch
+batch start
+
+# resources
+
+# mixer
+mmix 0  1.000  0.000  0.000  0.000
+mmix 1  1.000  0.000  0.000  0.000
+
+# servo mix
+smix 0 3 0 50 0 -1
+smix 1 3 1 50 0 -1
+smix 2 4 0 -50 0 -1
+smix 3 4 1 50 0 -1
+
+# servo
+servo 3 900 2000 1600 -100
+servo 4 900 2000 1400 100
+
+# logic
+
+# gf
+
+# feature
+feature -TX_PROF_SEL
+feature MOTOR_STOP
+feature GPS
+feature BLACKBOX
+feature PWM_OUTPUT_ENABLE
+feature FW_LAUNCH
+
+# beeper
+
+# map
+map TAER
+
+# serial
+serial 0 2 115200 9600 0 115200
+serial 30 2048 115200 115200 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1700 2100
+aux 1 1 1 1300 1700
+aux 2 2 1 1700 2100
+aux 3 10 2 900 1300
+
+# adjrange
+
+# rxrange
+
+# temp_sensor
+
+# wp
+#wp 0 invalid
+
+# osd_layout
+osd_layout 0 13 23 1 V
+osd_layout 0 20 18 12 V
+osd_layout 0 21 0 12 V
+
+# master
+set gyro_hardware_lpf = 98HZ
+set gyro_lpf_hz = 35
+set acc_hardware = MPU6000
+set acczero_x = 34
+set acczero_y = -7
+set acczero_z = -194
+set accgain_x = 4059
+set accgain_y = 4088
+set accgain_z = 4026
+set mag_hardware = QMC5883
+set baro_hardware = BMP280
+set pitot_hardware = ADC
+set serialrx_provider = FPORT
+set serialrx_halfduplex = ON
+set motor_pwm_rate = 2000
+set motor_pwm_protocol = MULTISHOT
+set failsafe_procedure = RTH
+set failsafe_min_distance = 2000
+set bat_voltage_src = SAG_COMP
+set platform_type = AIRPLANE
+set model_preview_type = 8
+set small_angle = 180
+set applied_defaults = 3
+set gps_provider = UBLOX7
+set gps_sbas_mode = AUTO
+set nav_rth_climb_first = OFF
+set nav_rth_climb_ignore_emerg = ON
+set nav_rth_allow_landing = NEVER
+set nav_rth_alt_mode = EXTRA
+set nav_rth_altitude = 2000
+set nav_fw_climb_angle = 45
+set nav_fw_dive_angle = 30
+set nav_fw_launch_max_angle = 180
+set nav_fw_launch_motor_delay = 200
+set name = Axel Wing
+set vtx_band = 5
+set vtx_channel = 3
+set vtx_freq = 5732
+
+# profile
+profile 1
+
+set fw_p_pitch = 9
+set fw_i_pitch = 15
+set fw_ff_pitch = 14
+set fw_p_roll = 9
+set fw_i_roll = 12
+set fw_ff_roll = 15
+set yaw_lpf_hz = 30
+set tpa_rate = 30
+set roll_rate = 36
+set pitch_rate = 13
+
+# battery_profile
+battery_profile 1
+
+set vbat_min_cell_voltage = 340
+set vbat_warning_cell_voltage = 360
+set battery_capacity = 650
+set battery_capacity_warning = 260
+set battery_capacity_critical = 97
+
+# end the command batch
+batch end
+
+# 
