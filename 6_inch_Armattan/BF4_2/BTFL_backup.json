@@ -2306,7 +2306,7 @@
 		"gyro_sync_denom": 1,
 		"pid_process_denom": 2,
 		"use_unsyncedPwm": 0,
-		"fast_pwm_protocol": 6,
+		"fast_pwm_protocol": 7,
 		"motor_pwm_rate": 480,
 		"digitalIdlePercent": 4,
 		"gyroUse32kHz": 0,
@@ -2830,7 +2830,7 @@
 		"maxthrottle": 2000,
 		"mincommand": 1000,
 		"motor_count": 4,
-		"motor_poles": 12,
+		"motor_poles": 14,
 		"use_dshot_telemetry": true,
 		"use_esc_sensor": true
 	},
