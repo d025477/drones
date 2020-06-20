@@ -8,18 +8,18 @@
 			},
 			"PIDs": [
 				[
-					42,
-					85,
-					35
+					50,
+					102,
+					42
 				],
 				[
-					46,
-					90,
-					38
+					55,
+					108,
+					46
 				],
 				[
-					45,
-					90,
+					54,
+					108,
 					0
 				],
 				[
@@ -39,26 +39,26 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.3,
-				"RC_EXPO": 0.25,
+				"RC_RATE": 0.27,
+				"RC_EXPO": 0.35,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.85,
 				"pitch_rate": 0.85,
-				"yaw_rate": 0.85,
+				"yaw_rate": 0.67,
 				"dynamic_THR_PID": 0.65,
-				"throttle_MID": 0.5,
-				"throttle_EXPO": 0,
+				"throttle_MID": 0.42,
+				"throttle_EXPO": 0.5,
 				"dynamic_THR_breakpoint": 1350,
-				"RC_YAW_EXPO": 0.25,
-				"rcYawRate": 1.3,
-				"rcPitchRate": 1.3,
-				"RC_PITCH_EXPO": 0.25,
+				"RC_YAW_EXPO": 0.35,
+				"rcYawRate": 0.27,
+				"rcPitchRate": 0.27,
+				"RC_PITCH_EXPO": 0.35,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100,
-				"rates_type": 4
+				"rates_type": 3
 			},
 			"AccTrim": [
 				0,
@@ -639,26 +639,26 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.3,
-				"RC_EXPO": 0.25,
+				"RC_RATE": 0.27,
+				"RC_EXPO": 0.35,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.85,
 				"pitch_rate": 0.85,
-				"yaw_rate": 0.85,
+				"yaw_rate": 0.67,
 				"dynamic_THR_PID": 0.65,
-				"throttle_MID": 0.5,
-				"throttle_EXPO": 0,
+				"throttle_MID": 0.42,
+				"throttle_EXPO": 0.5,
 				"dynamic_THR_breakpoint": 1350,
-				"RC_YAW_EXPO": 0.25,
-				"rcYawRate": 1.3,
-				"rcPitchRate": 1.3,
-				"RC_PITCH_EXPO": 0.25,
+				"RC_YAW_EXPO": 0.35,
+				"rcYawRate": 0.27,
+				"rcPitchRate": 0.27,
+				"RC_PITCH_EXPO": 0.35,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100,
-				"rates_type": 4
+				"rates_type": 3
 			},
 			"AccTrim": [
 				0,
@@ -1239,26 +1239,26 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.3,
-				"RC_EXPO": 0.25,
+				"RC_RATE": 0.27,
+				"RC_EXPO": 0.35,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.85,
 				"pitch_rate": 0.85,
-				"yaw_rate": 0.85,
+				"yaw_rate": 0.67,
 				"dynamic_THR_PID": 0.65,
-				"throttle_MID": 0.5,
-				"throttle_EXPO": 0,
+				"throttle_MID": 0.42,
+				"throttle_EXPO": 0.5,
 				"dynamic_THR_breakpoint": 1350,
-				"RC_YAW_EXPO": 0.25,
-				"rcYawRate": 1.3,
-				"rcPitchRate": 1.3,
-				"RC_PITCH_EXPO": 0.25,
+				"RC_YAW_EXPO": 0.35,
+				"rcYawRate": 0.27,
+				"rcPitchRate": 0.27,
+				"RC_PITCH_EXPO": 0.35,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100,
-				"rates_type": 4
+				"rates_type": 3
 			},
 			"AccTrim": [
 				0,
